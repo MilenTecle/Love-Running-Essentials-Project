@@ -97,6 +97,8 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+    list-style-type: none;
+    
 }
 
 /* Media query: tablets and larger (768px an dup */
