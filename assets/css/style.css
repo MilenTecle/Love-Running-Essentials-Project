@@ -110,7 +110,7 @@ main {
     color: 3a3a3a;
 }
 
-/* Media query: tablets and larger (768px an dup */
+/* Media query: tablets and larger screens (768px and up) */
 
 @media screen and (min-width: 768px) {
     /* Header */
@@ -142,9 +142,18 @@ main {
     /* Main content */
     main {
         /* Push main content down to accomodate larger header */
-        margin-top: 79px;
+        flex: 1 0 auto;
+        margin-top: 47px;
     }
 }
+
+/* Hero section */
+ #hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+
+ }
 
 /* Large devices (laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
