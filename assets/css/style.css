@@ -92,11 +92,12 @@ nav {
 
 /* Main content*/
 main {
-    background-color: #ffffff
+    background-color: #ffffff;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
 
 /* Hero section */
 #hero {
@@ -137,7 +138,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: 3a3a3a;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger screens (768px and up) */
